@@ -1,20 +1,22 @@
 body {
-	background-image: url("/images/campus.png");
+	background-image: url("/images/lol_map.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  height: 270px;
+  background-color: #107d87;
 }
 
 #splash_title {
 	width: 100%;
   font-size: 100px;
-  color: red;
+  color: #085b63;
   opacity: 0.85;
-  text-shadow: 4px 4px 4px rgba(255, 255, 255);
+  text-shadow: 4px 4px 4px black;
   text-align: center;
 }
 
 .menu_button {
-	background-color: rgba(255, 0, 0, 0.5);
+	background-color: #085b63;
     font-size: 28px;
     color: white;
     cursor: pointer;

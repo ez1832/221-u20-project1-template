@@ -1,29 +1,43 @@
 <!doctype html>
 <html>
   <head>
-    <title>FoxChatter Newsfeed</title>
+    <title>LoL DuoFinder</title>
     <link rel="stylesheet" type="text/css" href="/css/global.css">
     <link rel="stylesheet" type="text/css" href="/css/feed.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
     <meta charset="utf-8"/>
   </head>
   <body>
-    <header>
+    <header id="top_part">
+    </header>
+    <header id="top_text">
       <!--Site Name-->
-      FoxChatter
+      LoL DuoFinder
       <!--MyMarist Portal-->
       <div id="portal_button">
-        <img src="/images/redfox.png" id="redfox">
-        myMarist
+        <img src="/images/lol.png" id="lol">
+        League of Legends
+      </div>
+      <div id="upper_border">
+      </div>
+      <div id="lower_border">
       </div>
     </header>
     <main>
+      <div id="requests">
+        Duo Requests (All Ranks)
+      </div>
       <div id="newsfeed">
-        Feed will go here
+        <hr>
       </div>
     </main>
+    <img src="/images/league_background.jpg" id="background">
     <footer>
-      <p id="site_info">Copyright &copy; 2020: Marist College est. 1929</p>
+      <p id="site_info">Copyright &copy; 2022: Eric Zheng est. 2006</p>
     </footer>
-
+    <script src="/js/global.js"></script>
+    <script src="/js/feed.js"></script>
   </body>
 </html>

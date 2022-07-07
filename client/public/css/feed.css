@@ -1,6 +1,6 @@
-header {
+#top_part {
 	position: fixed;
-	left:0px;
+	left: 0px;
 	top: 0px;
 	height: 60px;
 	width: 100%;
@@ -9,31 +9,66 @@ header {
 	justify-content: space-between;
 	align-items: center;
 
-	background-color: red;
+	background-color: #085b63;
+}
+
+#top_text {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 60px;
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
 	font-size: 30px;
 	color: white;
+	font-family: 'Antic Slab', serif;
+	left: 10px;
+}
+
+#upper_border {
+	position: fixed;
+	left: 0px;
+	top: 60px;
+	height: 10px;
+	width: 100%;
+	background-color: white;
+}
+
+#lower_border {
+	position: fixed;
+	right: 0px;
+	bottom: 60px;
+	height: 10px;
+	width: 100%;
+	background-color: white;
 }
 
 main {
 	display: grid;
 	padding-top: 60px;
 	justify-content: center;
+	font-family: 'Antic Slab', serif;
 }
 
 footer {
 	position: absolute;
 	left: 0px;
-  bottom: 0px;
+  	bottom: 0px;
 	width: 100%;
-	background-color: red;
+	background-color: #085b63;
 	text-align: center;
 	font-size: 20px;
+	color: white;
 }
 
 #portal_button {
 	position: fixed;
 	right: 30px;
-	top: 10px;
+	top: 11px;
 }
 
 a {
@@ -41,19 +76,43 @@ a {
 	text-decoration: none;
 }
 
-#redfox{
+#lol{
 	position: relative;
+	right: 10px;
 	float: left;
 	height: 50px;
 	bottom: 5px;
 }
 
 #newsfeed {
+	top: 10px;
+	position: relative;
 	max-width: 600px;
 	min-width: 600px;
+	text-align: center;
+	color: white;
+}
+
+#requests {
+	top: 10px;
+	position: relative;
+	font-size: 30px;
+	font-family: 'Antic Slab', serif;
+	text-align: center;
+	color: white;
 }
 
 .feedImage {
 	max-width: 150px;
 	max-height: 150px;
+	border: 10px solid #085b63;
+}
+
+#background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: -10000;
 }

@@ -9,3 +9,5 @@ function checkKeyPress(e) {
     goToLocation('/feed');
   }
 }
+window.addEventListener('keyup', checkKeyPress);
+document.getElementById('fade_text').addEventListener('mouseup', () => goToLocation('/feed'));

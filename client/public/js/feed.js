@@ -7,9 +7,9 @@ function feedItem(title, body, linkUrl, imageUrl) {
 }
 
 var currentStories = [];
-currentStories[0] = new feedItem("Fizz (Iron III)", "Looking for not terrible player to duo with.", "request1", "/images/fizz.png");
-currentStories[1] = new feedItem("Mordekaiser (Gold IV)", "I duo.", "request2", "/images/mord.png");
-currentStories[2] = new feedItem("Viktor (Silver II)", "I want to duo.", "request3", "/images/better_viktor.png");
+currentStories[0] = new feedItem("Fizz (Iron III)", "Looking for not terrible player to duo with.", "https://u.gg/", "/images/fizz.png");
+currentStories[1] = new feedItem("Mordekaiser (Gold IV)", "I duo.", "https://mobalytics.gg/", "/images/mord.png");
+currentStories[2] = new feedItem("Viktor (Silver II)", "I want to duo.", "https://www.mobafire.com/", "/images/better_viktor.png");
 
 var requestNumber;
 

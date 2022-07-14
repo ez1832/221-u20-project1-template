@@ -1,3 +1,4 @@
+/*top part of feed page*/
 #top_part {
 	position: fixed;
 	left: 0px;
@@ -12,6 +13,7 @@
 	background-color: #085b63;
 }
 
+/*text in the top part of feed page*/
 #top_text {
 	position: fixed;
 	left: 0px;
@@ -29,6 +31,7 @@
 	left: 10px;
 }
 
+/*border for top part of feed page*/
 #upper_border {
 	position: fixed;
 	left: 0px;
@@ -38,6 +41,7 @@
 	background-color: white;
 }
 
+/*border for bottom part of feed page*/
 #lower_border {
 	position: fixed;
 	right: 0px;
@@ -47,6 +51,7 @@
 	background-color: white;
 }
 
+/*format and text for newsfeed and requests*/
 main {
 	display: grid;
 	padding-top: 60px;
@@ -54,6 +59,7 @@ main {
 	font-family: 'Antic Slab', serif;
 }
 
+/*text for bottom part of feed page*/
 footer {
 	position: absolute;
 	left: 0px;
@@ -65,17 +71,20 @@ footer {
 	color: white;
 }
 
+/*portal button*/
 #portal_button {
 	position: fixed;
 	right: 30px;
 	top: 11px;
 }
 
+/*request links*/
 a {
 	color: blue;
 	text-decoration: none;
 }
 
+/*lol icon*/
 #lol{
 	position: relative;
 	right: 10px;
@@ -84,6 +93,7 @@ a {
 	bottom: 5px;
 }
 
+/*area and text color for newsfeed and requests*/
 #newsfeed {
 	top: 10px;
 	position: relative;
@@ -93,6 +103,7 @@ a {
 	color: white;
 }
 
+/*title for newsfeed and requests*/
 #requests {
 	top: 10px;
 	position: relative;
@@ -102,12 +113,14 @@ a {
 	color: white;
 }
 
+/*images in newsfeed and requests*/
 .feedImage {
 	max-width: 150px;
 	max-height: 150px;
 	border: 10px solid #085b63;
 }
 
+/*background and background image of feed page*/
 #background {
 	position: fixed;
 	width: 100%;

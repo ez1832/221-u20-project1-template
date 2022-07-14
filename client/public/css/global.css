@@ -1,3 +1,4 @@
+/*sets format of pages*/
 body {
 	display: flex;
 	flex-flow: column;

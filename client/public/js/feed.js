@@ -1,22 +1,15 @@
+//add event listener for mouseup on portal_button object from HTML to go to new website
 document.getElementById('portal_button').addEventListener('mouseup', () => goToLocation('https://www.leagueoflegends.com/'));
-function feedItem(title, body, linkUrl, imageUrl) {
-    this.title = title;
-    this.body = body;
-    this.linkUrl = linkUrl;
-    this.imageUrl = imageUrl;
-}
 
-var currentStories = [];
-currentStories[0] = new feedItem("Fizz (Iron III)", "Looking for not terrible player to duo with.", "https://u.gg/", "/images/fizz.png");
-currentStories[1] = new feedItem("Mordekaiser (Gold IV)", "I duo.", "https://mobalytics.gg/", "/images/mord.png");
-currentStories[2] = new feedItem("Viktor (Silver II)", "I want to duo.", "https://www.mobafire.com/", "/images/better_viktor.png");
-
+//creates requestNumber variable
 var requestNumber;
 
+//function to display parts of a feedItem in newsfeed on feed page
 function displayItem(feedItem) {
     document.getElementById('newsfeed').innerHTML += "<div><b>" + feedItem.title + "</b></div>" + "<div>" + feedItem.body + "</div>" + "<div><a href = " + feedItem.linkUrl + ">Request " + requestNumber + "</a></div> <div><img src = " + feedItem.imageUrl + " class = \"feedImage\"></div><hr>";
 }
 
+//add event listener for load of page to set requestNumber and display feedItems from allFeedItems array
 window.addEventListener('load', () => {
     for (let i = 0; i < currentStories.length; i++) {
         requestNumber = i + 1;
